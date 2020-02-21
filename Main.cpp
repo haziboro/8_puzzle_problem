@@ -23,7 +23,7 @@ int main()
 		for (int i = 0; i < 9; i++) {
 			numbers.push_back(i);
 		}//end for
-		shuffle(numbers.begin(), numbers.end(), std::default_random_engine(seed));
+		random_shuffle(numbers.begin(), numbers.end(), std::default_random_engine(seed));
 		for (int i = 0; i < 9; i++) {
 			initial[i] = numbers[i];
 		}//end for
