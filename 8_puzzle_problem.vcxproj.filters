@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\node">
+      <UniqueIdentifier>{cf17ef98-1831-440b-a7db-58ab0dee84ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\problem">
+      <UniqueIdentifier>{e88463c7-9eb4-4d50-adb0-1ff3db047658}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\fringe">
+      <UniqueIdentifier>{b50bdae7-7288-4da9-82b2-891e53f85c63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\client">
+      <UniqueIdentifier>{bf090cab-dbf0-4438-b923-c3389d090700}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="node\Node.cpp">
+      <Filter>Source Files\node</Filter>
+    </ClCompile>
+    <ClCompile Include="problem\Problem.cpp">
+      <Filter>Source Files\problem</Filter>
+    </ClCompile>
+    <ClCompile Include="fringe\Fringe_Queue.cpp">
+      <Filter>Source Files\fringe</Filter>
+    </ClCompile>
+    <ClCompile Include="fringe\Fringe_A_Star.cpp">
+      <Filter>Source Files\fringe</Filter>
+    </ClCompile>
+    <ClCompile Include="client\Client.cpp">
+      <Filter>Source Files\client</Filter>
+    </ClCompile>
+    <ClCompile Include="fringe\PriorityNode.cpp">
+      <Filter>Source Files\fringe</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="node\A_Node.h">
+      <Filter>Source Files\node</Filter>
+    </ClInclude>
+    <ClInclude Include="node\Node.h">
+      <Filter>Source Files\node</Filter>
+    </ClInclude>
+    <ClInclude Include="problem\A_Problem.h">
+      <Filter>Source Files\problem</Filter>
+    </ClInclude>
+    <ClInclude Include="problem\Problem.h">
+      <Filter>Source Files\problem</Filter>
+    </ClInclude>
+    <ClInclude Include="fringe\A_Fringe.h">
+      <Filter>Source Files\fringe</Filter>
+    </ClInclude>
+    <ClInclude Include="fringe\Fringe_Queue.h">
+      <Filter>Source Files\fringe</Filter>
+    </ClInclude>
+    <ClInclude Include="fringe\Fringe_A_Star.h">
+      <Filter>Source Files\fringe</Filter>
+    </ClInclude>
+    <ClInclude Include="client\Client.h">
+      <Filter>Source Files\client</Filter>
+    </ClInclude>
+    <ClInclude Include="fringe\PriorityNode.h">
+      <Filter>Source Files\fringe</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
