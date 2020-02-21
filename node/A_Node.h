@@ -17,12 +17,6 @@ public:
 
 	virtual int path_cost() = 0;
 
-private:
-	//prevent default construction, copy-contruction, and assignment outside of subclasses
-	//A_Node() {};
-	//A_Node(const A_Node&) {};
-	//const A_Node& operator = (const A_Node&) {};
-
 };
 
 #endif  // !defined _A_NODE_H_

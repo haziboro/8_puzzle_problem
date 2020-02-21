@@ -28,11 +28,6 @@ public:
 	//parent, action, successor
 	virtual int step_cost(Node* parent, int action, Node* successor) = 0;
 
-private:
-	//prevent default construction, copy-contruction, and assignment outside of subclasses
-	//A_Problem() {};
-	//A_Problem(const A_Problem&) {};
-	//const A_Problem& operator = (const A_Problem&) {};
 };
 
 #endif  // !defined _A_PROBLEM_H_
