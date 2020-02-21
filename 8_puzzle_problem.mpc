@@ -1,0 +1,43 @@
+project (8_puzzle_problem) {
+  exename = 8_puzzle_problem
+  install = .
+ 
+  specific (make, gnuace) {
+	compile_flags += -std=c++11
+  }
+
+  Source_Files {
+	Main.cpp
+
+	client/Client.cpp
+	
+	node/Node.cpp
+
+	fringe/Fringe_Queue.cpp
+	fringe/Fringe_A_Star.cpp
+	fringe/PriorityNode.cpp
+
+	problem/Problem.cpp
+
+	
+	
+  }
+
+  Header_Files {
+
+	client/Client.h
+	
+	node/A_Node.h
+	node/Node.h
+
+	fringe/A_Fringe.h
+	fringe/Fringe_Queue.h
+	fringe/Fringe_A_Star.h
+	fringe/PriorityNode.h
+
+	problem/A_Problem.h
+	problem/Problem.h
+
+  }
+  
+}
