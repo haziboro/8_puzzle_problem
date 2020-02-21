@@ -6,6 +6,7 @@
 #include <random>
 #include <ctime>
 #include <chrono>
+#include <algorithm>
 
 int main()
 {
