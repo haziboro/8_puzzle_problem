@@ -38,19 +38,6 @@ int Problem::inv_count(std::array<int, 9> initial)
 //goal_test
 bool Problem::goal_test(std::array<int, 9> state)
 {
-	/*for (int i = 0;i < 3; i++) {//for testing
-		std::cout << state[i];
-	}
-	std::cout << std::endl;
-	for (int i = 3;i < 6; i++) {//for testing
-		std::cout << state[i];
-	}
-	std::cout << std::endl;
-	for (int i = 6;i < 9; i++) {//for testing
-		std::cout << state[i];
-	}
-	std::cout << std::endl;
-	std::cout << std::endl;*/
 	for (int i = 0;i < 9;i++) {
 		if (state[i] != goal_state_[i]) {
 			return false;

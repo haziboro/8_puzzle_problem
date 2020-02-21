@@ -77,6 +77,7 @@ private:
 	//Concrete objects of Problem and Fringe
 	A_Fringe * fringe_;
 	A_Problem * problem_;
+	//vector of tested values to prevent duplicate states
 	std::vector<std::array<int, 9>> * tested_;
 
 };
